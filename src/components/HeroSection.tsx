@@ -30,7 +30,7 @@ const HeroSection = () => {
               Join us in building bridges to a brighter future, one community at a time.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+            <div className="flex flex-col sm:flex-row gap-4 pt-4 pb-16">
               <Button variant="hero" size="lg" asChild>
                 <Link to="/volunteer">Become a Volunteer</Link>
               </Button>
