@@ -37,7 +37,7 @@ const Volunteer = () => {
     "Event Planning",
   ];
 
-  const handleSkillChange = (skill: string, checked: boolean | string) => {
+  const handleSkillChange = (skill, checked) => {
     const isChecked = checked === true;
     setFormData(prev => ({
       ...prev,
@@ -47,7 +47,7 @@ const Volunteer = () => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     if (!formData.agreement) {
       toast({
